@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/mobilefirst.css" media="all">
+    <link rel="stylesheet" href="estilos/mediaqueries.css" media="screen">
+    <title>Login</title>
+</head>
+<body>
+        <main>
+            <section class="box">
+                <div class="imagem"></div>
+                <form action="cadastro.js" method="post" autocomplete="on">
+                    <h2>Login</h2>
+                    <p>Welcome(a) again. Sign up to acess your account and setting your environment.</p>
+                    <section class="box-input">
+                        <div>
+                            <span class="material-icons md-dark">person</span>
+                            <input type="text" name="login" id="Ilogin" autocomplete="email" placeholder="Digite seu E-mail" required>
+                            <label for="Ilogin">Login</label>
+                        </div>
+                    </section>
+                    <section class="box-input">
+                        <div>
+                            <span class="material-icons md-dark">lock</span>
+                            <input type="password" name="senha" id="Isenha" autocomplete="current-password" placeholder="Digite sua senha" minlength="8" maxlength="20" required>
+                            <label for="Isenha">Senha</label>
+                        </div>
+                    </section>
+                    <span>
+                        <input type="submit" value="Entrar">
+                    </span>
+                    <span>
+                        <a href="#" target="_self" rel="next">
+                            <span>Esqueci a Senha</span>
+                            <span class="material-icons md-dark" id="fg">mail</span>
+                        </a>
+                    </span>
+                </form>
+            </section>
+        </main>
+</body>
+</html>
