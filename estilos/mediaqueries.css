@@ -209,3 +209,8 @@
         transition: background-color .3s, color .2s;
     }
 }
+@media screen and (orientation: landscape) and (max-width: 768px) {
+    a {
+        width: 10%;
+    }
+}
