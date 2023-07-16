@@ -20,7 +20,7 @@ main {
     top: 50%;
     transform: translate(-50%, -50%);
     height: 90vh;
-    width: 60vw;
+    width: 80vw;
     border-radius: 30px;
     transition: width 0.2s, height 0.2s;
     transition-timing-function: ease; /*pra dar uma suavizada na animação*/
