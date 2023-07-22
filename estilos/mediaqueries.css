@@ -87,12 +87,11 @@
     }
     .box-input:hover {
         color: white;
-        background-color: rgb(92, 19, 175);
-        transition: color .3s, background-color .5s;
+        background-color: rgba(92, 19, 175, 0.479);
+        transition: color .10s, background-color .5s;
     }
     input[type = text], input[type = password]:hover {
-        background-color: rgba(255, 255, 255, 0.233);
-        transition: background-color .1s;
+        transition: background-color .5s;
     }
     input[type = submit]:hover {
         transition: background-color .3s, color .2s;
@@ -120,12 +119,12 @@
     }
     form {
         margin-top: 200px;
+        
     }
     form input {
         width: 35vw;
     }
     form input:hover {
-        background-color: rgba(160, 66, 66, 0.945);
         transition: background-color .3s;
     }
     p {
@@ -209,6 +208,7 @@
         transition: background-color .3s, color .2s;
     }
 }
+<<<<<<< HEAD
 @media screen and (orientation: landscape) and (min-width: 768px) and (max-width: 992px) {
     main {
         background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.288), rgba(0, 0, 255, 0.24));
@@ -235,16 +235,54 @@
     .box-input {
         display: inline-block;
         width: 40%;
+=======
+@media screen and (orientation: landscape) and (min-width: 1200px) {
+    main {
+        width: 85vw;
+        height: 70vh;
+        background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.24), rgba(0, 0, 255, 0.199))
+    }
+    .imagem {
+        float: right;
+        height: 70vh;
+        width: 40vw;
+        margin-top: -50px;
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 30px;
+    }
+    h2 {
+        margin-top: -50px;
+    }
+    form {
+        margin-top: 100px;
+    }
+    form input {
+        width: 35vw;
+    }
+    p {
+        margin: 0px 5px 15px;
+    }
+    .box-input {
+        display: inline-block;
+        width: 50%;
+>>>>>>> e6c21b48ab60989064c9eb280b9143ddad2c06ef
         margin: 5px;
     }
     input[type = submit] {
         display: inline-block;
         width: 40%;
+<<<<<<< HEAD
+=======
+        margin-top: 5px;
+>>>>>>> e6c21b48ab60989064c9eb280b9143ddad2c06ef
     }
     a {
         display: inline-block;
         width: 40%;
+<<<<<<< HEAD
         margin-bottom: -50px;
+=======
+>>>>>>> e6c21b48ab60989064c9eb280b9143ddad2c06ef
     }
     .box-input:hover {
         color: white;
